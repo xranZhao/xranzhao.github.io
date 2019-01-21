@@ -150,7 +150,7 @@
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
     duoshuo: {
       userId: '0',
-      author: '博主'
+      author: 'Author'
     },
     algolia: {
       applicationID: '',
@@ -225,52 +225,42 @@
     <ul id="menu" class="menu">
       
         
-        <li class="menu-item menu-item-home">
-          <a href="/" rel="section">
+        <li class="menu-item menu-item-science">
+          <a href="/science" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+              <i class="menu-item-icon fa fa-fw fa-book"></i> <br>
             
-            首页
+            science
           </a>
         </li>
       
         
-        <li class="menu-item menu-item-about">
-          <a href="/about" rel="section">
+        <li class="menu-item menu-item-literature">
+          <a href="/literature" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
+              <i class="menu-item-icon fa fa-fw fa-book"></i> <br>
             
-            关于
+            literature
           </a>
         </li>
       
         
-        <li class="menu-item menu-item-tags">
-          <a href="/tags" rel="section">
+        <li class="menu-item menu-item-aesthtics">
+          <a href="/aesthtics" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
+              <i class="menu-item-icon fa fa-fw fa-book"></i> <br>
             
-            标签
+            aesthtics
           </a>
         </li>
       
         
-        <li class="menu-item menu-item-categories">
-          <a href="/categories" rel="section">
+        <li class="menu-item menu-item-self-improvement">
+          <a href="/self-improvement" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-th"></i> <br>
+              <i class="menu-item-icon fa fa-fw fa-book"></i> <br>
             
-            分类
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-archives">
-          <a href="/archives" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
-            
-            归档
+            self-improvement
           </a>
         </li>
       
@@ -334,9 +324,9 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Posted on</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-01-19T03:46:31+08:00">
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-01-19T03:46:31+08:00">
                 2019-01-19
               </time>
             
@@ -389,21 +379,21 @@
         <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
   <div>谢谢你给我买糖吃</div>
   <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
-    <span>打赏</span>
+    <span>Donate</span>
   </button>
   <div id="QR" style="display: none;">
 
     
       <div id="wechat" style="display: inline-block">
-        <img id="wechat_qr" src="/images/weichatpay.jpg" alt="zxr 微信支付">
-        <p>微信支付</p>
+        <img id="wechat_qr" src="/images/weichatpay.jpg" alt="zxr WeChat Pay">
+        <p>WeChat Pay</p>
       </div>
     
 
     
       <div id="alipay" style="display: inline-block">
-        <img id="alipay_qr" src="/images/alipay.jpg" alt="zxr 支付宝">
-        <p>支付宝</p>
+        <img id="alipay_qr" src="/images/alipay.jpg" alt="zxr Alipay">
+        <p>Alipay</p>
       </div>
     
 
@@ -490,10 +480,10 @@
       
         <ul class="sidebar-nav motion-element">
           <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
-            文章目录
+            Table of Contents
           </li>
           <li class="sidebar-nav-overview" data-target="site-overview-wrap">
-            站点概览
+            Overview
           </li>
         </ul>
       
@@ -516,7 +506,7 @@
                 <a href="/archives">
               
                   <span class="site-state-item-count">2</span>
-                  <span class="site-state-item-name">日志</span>
+                  <span class="site-state-item-name">posts</span>
                 </a>
               </div>
             
@@ -547,7 +537,7 @@
                   <span class="links-of-author-item">
                     <a href="https://www.douban.com/people/178516136/" target="_blank" title="douban">
                       
-                        <i class="fa fa-fw fa-douban"></i>douban</a>
+                        <i class="fa fa-fw fa-feather"></i>douban</a>
                   </span>
                 
                   <span class="links-of-author-item">
@@ -610,15 +600,6 @@
 </div>
 
 
-  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
-
-
-
-  <span class="post-meta-divider">|</span>
-
-
-
-  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Mist</a> v5.1.4</div>
 
 
 
