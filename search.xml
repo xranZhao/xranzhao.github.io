@@ -1,9 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[读书问题集锦]]></title>
+    <url>%2F2019%2F02%2F23%2F0%2F</url>
+    <content type="text"><![CDATA[读书问题 作者信息不完整怎么办？ 见：《股市真规则》Pat Dorsey]]></content>
+      <categories>
+        <category>literature</category>
+      </categories>
+      <tags>
+        <tag>pattern</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[时间安排]]></title>
+    <url>%2F2019%2F02%2F22%2F0%2F</url>
+    <content type="text"><![CDATA[大时间周期要坚持的事情 股票投资易投练字硬笔软笔塑型减肥穿衣打扮护肤打扫考研准备专业学习]]></content>
+      <categories>
+        <category>self-improvement</category>
+      </categories>
+      <tags>
+        <tag>Time</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[blog 维护记录]]></title>
     <url>%2F2019%2F02%2F21%2F1%2F</url>
-    <content type="text"><![CDATA[2019年2月21日16:22:58配置七牛图床 利用sharex生成截图工作流，七牛云配置成功。]]></content>
+    <content type="text"><![CDATA[问题日志 2019年2月21日16:22:58配置七牛图床 利用sharex生成截图工作流，七牛云配置成功。]]></content>
       <categories>
         <category>science</category>
       </categories>
@@ -23,14 +45,6 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[this is me]]></title>
-    <url>%2F2019%2F02%2F20%2FREADME%2F</url>
-    <content type="text"><![CDATA[我的故事，从这里开始。 我是谁？我今年21岁，是一名在校大学生。在这个寒假，开通了自己的个人博客，开始记录自己的生活。我的专业是智能科学与技术，隶属于计算机科学的一个热门领域。 目前的我，处于人生选择的第二个关键关口，我要开始准备考研了。 在三个月以前，我仍旧对于“考研还是工作？”这个问题万分纠结。因为一些事情，我决定，考研。 这注定是一段艰苦的路途。还有四天，新学期就将开始，我现在仍旧没有头绪。我觉得在这几天慢慢形成自我学习习惯系统。这是个漫长的过程，不可避免，也不可放弃。 我来自哪里？我通过高考，从两千公里外的南方，来到这个211大学，学着目前依旧热门的专业。 我将去向何方？考研，成为一名研究生，然后继续学习。 这是一个不断更新的文章，我会不断更新我的现状，不断询问自己的去向]]></content>
-      <categories>
-        <category>self-improvement</category>
-      </categories>
-  </entry>
-  <entry>
     <title><![CDATA[《如何创立好的学习习惯系统》ER]]></title>
     <url>%2F2019%2F02%2F20%2F0%2F</url>
     <content type="text"><![CDATA[学习习惯系统。 card level人名卡反常识卡 好的学习习惯系统【原则】 符合人脑规律（输入 【第一手知识】- 处理【高阶模型】 - 输出【压力测试】） 在不同时空有效 成本最低 — 空间最小 — 时间最少 细节正确 【细节】 批量处理，剥削机器 尊重原始数据【遵循数据库原则】 尽量在公共场合沟通 可复用性 大时间周期 金句卡 好的学习习惯在不同时空都是有效的。 吃透书中内容，【正反古今，古今中外】 行动卡联接卡file levelyzp在文章中强调尊重原始数据，可是关于他提出的观点，依旧不知道是从何获得。我还是只会接收，而不会质疑。关于他提出的观点，有什么能够证明是正确的。 万般皆下品，唯有读书高。 change log]]></content>
@@ -40,6 +54,14 @@
       <tags>
         <tag>ER</tag>
       </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[this is me]]></title>
+    <url>%2F2019%2F02%2F20%2FREADME%2F</url>
+    <content type="text"><![CDATA[我的故事，从这里开始。 我是谁？我今年21岁，是一名在校大学生。在这个寒假，开通了自己的个人博客，开始记录自己的生活。我的专业是智能科学与技术，隶属于计算机科学的一个热门领域。 目前的我，处于人生选择的第二个关键关口，我要开始准备考研了。 在三个月以前，我仍旧对于“考研还是工作？”这个问题万分纠结。因为一些事情，我决定，考研。 这注定是一段艰苦的路途。还有四天，新学期就将开始，我现在仍旧没有头绪。我觉得在这几天慢慢形成自我学习习惯系统。这是个漫长的过程，不可避免，也不可放弃。 我来自哪里？我通过高考，从两千公里外的南方，来到这个211大学，学着目前依旧热门的专业。 我将去向何方？考研，成为一名研究生，然后继续学习。 这是一个不断更新的文章，我会不断更新我的现状，不断询问自己的去向]]></content>
+      <categories>
+        <category>self-improvement</category>
+      </categories>
   </entry>
   <entry>
     <title><![CDATA[20190218-WR2]]></title>
