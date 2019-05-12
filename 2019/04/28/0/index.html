@@ -130,7 +130,11 @@
 <meta property="og:site_name" content="xranZhao&#39;s Blog">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://cdn.xranzhao.cn/pl.png">
-<meta property="og:updated_time" content="2019-04-28T05:28:15.611Z">
+<meta property="og:image" content="http://cdn.xranzhao.cn/20191903/0950-u.png">
+<meta property="og:image" content="http://cdn.xranzhao.cn/20191903/1000-l.png">
+<meta property="og:image" content="http://cdn.xranzhao.cn/20191903/1010-e.png">
+<meta property="og:image" content="http://cdn.xranzhao.cn/20191905/1649-t.png">
+<meta property="og:updated_time" content="2019-05-06T00:36:48.329Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Test 语言词法分析">
 <meta name="twitter:image" content="http://cdn.xranzhao.cn/pl.png">
@@ -412,7 +416,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  63
+                  530
                 </span>
               
 
@@ -428,7 +432,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  1
+                  2
                 </span>
               
             </div>
@@ -452,11 +456,51 @@
         <p><img src="http://cdn.xranzhao.cn/pl.png" alt=""></p>
 <a id="more"></a>
 <h2 id="20190428"><a href="#20190428" class="headerlink" title="20190428"></a>20190428</h2><ul>
+<li><p>连接不上</p>
+</li>
 <li><p>ctype.h 是什么</p>
 <p><a href="https://www.tutorialspoint.com/c_standard_library/ctype_h.htm" target="_blank" rel="noopener">C语言 中 ctype.h</a></p>
 </li>
 <li><p>extend int TESTscan() 是什么意思</p>
 <p>在 C 语言中，修饰符 extern 用在变量或者函数的声明前，用来说明 “此变量 / 函数是在别处定义的，要在此处引用”。</p>
+</li>
+<li><p><img src="http://cdn.xranzhao.cn/20191903/0950-u.png" alt=""></p>
+<p>无法解析外部的符号</p>
+</li>
+<li><p><img src="http://cdn.xranzhao.cn/20191903/1000-l.png" alt=""></p>
+<p>由于无法解析，便将两个函数放在一个文件中，出现各种各样的报错。</p>
+</li>
+<li><p><img src="http://cdn.xranzhao.cn/20191903/1010-e.png" alt=""></p>
+</li>
+<li><p><a href="https://blog.csdn.net/qq_41068877/article/details/81272140" target="_blank" rel="noopener">https://blog.csdn.net/qq_41068877/article/details/81272140</a></p>
+</li>
+<li><p>严重性    代码    说明    项目    文件    行    禁止显示状态<br>错误(活动)    E0513    不能将 “const char *” 类型的值分配到 “char” 类型的实体    20190503_1    C:\Users\zhaox\source\repos\20190503_1\20190503_1\testscan.cpp    43    </p>
+<p>token[j] = “\0”;  改成 token[j] = ‘\0’;</p>
+</li>
+<li><p><a href="https://zhidao.baidu.com/question/809993858189484292.html" target="_blank" rel="noopener">https://zhidao.baidu.com/question/809993858189484292.html</a></p>
+</li>
+<li><p>严重性    代码    说明    项目    文件    行    禁止显示状态<br>错误(活动)    E0167    “FILE <em>“ 类型的实参与 “const char </em>“ 类型的形参不兼容    20190503_1    C:\Users\zhaox\source\repos\20190503_1\20190503_1\testscan.cpp    49    </p>
+<p>printf(fout, “%s\t%s\n”, “ID”, token);  printf((char*)fout, “%s\t%s\n”, token, token);</p>
+</li>
+<li><p>严重性    代码    说明    项目    文件    行    禁止显示状态<br>警告    C6289    运算符不正确: 基于 || 的互斥运算为非零常量。 是否原本要使用 &amp;&amp;?    20190503_1    c:\users\zhaox\source\repos\20190503_1\20190503_1\testscan.cpp    97     </p>
+</li>
+<li><p>严重性    代码    说明    项目    文件    行    禁止显示状态<br>错误    C4996    ‘scanf’: This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.    20190503_1    C:\Users\zhaox\source\repos\20190503_1\20190503_1\testscan.cpp    17    <a href="https://docs.microsoft.com/zh-cn/cpp/error-messages/compiler-warnings/compiler-warning-level-3-c4996?f1url=https%3A%2F%2Fmsdn.microsoft.com%2Fquery%2Fdev15.query%3FappId%3DDev15IDEF1%26l%3DZH-CN%26k%3Dk(C4996)%26rd%3Dtrue&amp;view=vs-2019" target="_blank" rel="noopener">https://docs.microsoft.com/zh-cn/cpp/error-messages/compiler-warnings/compiler-warning-level-3-c4996?f1url=https%3A%2F%2Fmsdn.microsoft.com%2Fquery%2Fdev15.query%3FappId%3DDev15IDEF1%26l%3DZH-CN%26k%3Dk(C4996)%26rd%3Dtrue&amp;view=vs-2019</a></p>
+<p><a href="https://docs.microsoft.com/zh-cn/cpp/standard-library/scl-secure-no-warnings?view=vs-2019" target="_blank" rel="noopener">https://docs.microsoft.com/zh-cn/cpp/standard-library/scl-secure-no-warnings?view=vs-2019</a></p>
+</li>
+<li><p><a href="https://jingyan.baidu.com/article/a501d80c446f72ec630f5ee0.html" target="_blank" rel="noopener">https://jingyan.baidu.com/article/a501d80c446f72ec630f5ee0.html</a></p>
+</li>
+</ul>
+<h2 id="20190505"><a href="#20190505" class="headerlink" title="20190505"></a>20190505</h2><ul>
+<li><p><img src="http://cdn.xranzhao.cn/20191905/1649-t.png" alt=""></p>
+<p>执行以后没有继续的读入文件</p>
+</li>
+<li><p>粗心大意的错误</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&#125;</span><br><span class="line">	fclose(fin);</span><br><span class="line">	fclose(fout);</span><br><span class="line">	<span class="keyword">return</span>(es);</span><br><span class="line">	&#125;</span><br></pre></td></tr></table></figure>
+<p>花括号的位置出错</p>
+</li>
+<li><p>由于原输出文件中有字符，导致再一次编译输出的时候不能覆盖。</p>
+</li>
+<li><p>//创新点5：漏洞 关于注释的处理 如果注释语句中间出现 * 可能导致注释语句提前完成 粗心大意的错误</p>
 </li>
 </ul>
 
@@ -605,7 +649,7 @@
               
                 <a href="/archives">
               
-                  <span class="site-state-item-count">70</span>
+                  <span class="site-state-item-count">73</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -688,7 +732,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#20190428"><span class="nav-number">1.</span> <span class="nav-text">20190428</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#20190428"><span class="nav-number">1.</span> <span class="nav-text">20190428</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#20190505"><span class="nav-number">2.</span> <span class="nav-text">20190505</span></a></li></ol></div>
             
 
           </div>
@@ -728,7 +772,7 @@
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共617.9k字</span>
+  <span class="post-count">博客全站共622.2k字</span>
 </div>
 
         
