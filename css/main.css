@@ -1941,7 +1941,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff456c;
+  background: #c8cd9c;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3024,7 +3024,7 @@ hr {
   }
 }
 body {
-  background: url("http://cdn.xranzhao.cn/background6.jpg");
+  background: #fff;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
