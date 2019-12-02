@@ -1941,7 +1941,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #9aff37;
+  background: #ff456c;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3024,29 +3024,19 @@ hr {
   }
 }
 body {
-  background: url("https://source.unsplash.com/random/1600x900");
+  background: url("http://cdn.xranzhao.cn/background6.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 50% 50%;
 }
-.main-inner {
-  background: #fff;
-  opacity: 0.8;
-}
 .header-inner {
   opacity: 0.8;
 }
 .post {
-  margin-top: 60px;
-  margin-bottom: 60px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   padding: 25px;
-  -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
-  -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
-}
-body {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
+  -webkit-box-shadow: 0 0 2px rgba(202,203,203,0.5);
+  -moz-box-shadow: 0 0 2px rgba(202,203,204,0.5);
 }
