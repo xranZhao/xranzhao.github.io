@@ -951,7 +951,7 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[Windows系统-利用hexo和GitHub构建博客]]></title>
+    <title><![CDATA[Hexo+github构建博客系统]]></title>
     <url>%2F2019%2F01%2F29%2F0%2F</url>
     <content type="text"><![CDATA[步骤 安装node.js 进入官网，默认下载即可。 记得默认安装中勾选，“添加到环境变量中“。 安装git 安装hexo 看原生文档，hexo官网可以构建hexo静态博客，用localhost:4000打开 发布到GitHub 采用nexT主题，进入网站[nexT官方文档][http://theme-next.iissnan.com/] 主题下载指导方针 绑定域名 买一个域名，解析，在GitHub绑定 问题 https://blog.csdn.net/u012195214/article/details/79204088 hexo deploy –message ‘XXX’ 提交时添加提交记录]]></content>
       <categories>
@@ -977,7 +977,7 @@
   <entry>
     <title><![CDATA[博客维护日志 持续更新中...]]></title>
     <url>%2F2019%2F01%2F29%2F1%2F</url>
-    <content type="text"><![CDATA[20190221配置七牛图床 利用sharex生成截图工作流，七牛云配置成功。 20190225seo搜索引擎优化 将网站收录到百度上 问题一：两个命令来安装针对谷歌和百度的插件，无法执行 解决办法： 问题二：秘钥在哪？ 按顺序布置完毕，等待百度收录 2019年2月28日18:10:09 今天查看百度的时候，发现已收录。 问题三：sitemap一直处于等待状态 问题四：博客有点丑，想加图片在每一个文章标题上 在前加上图片即可 s 问题5：博文之间没有间隔，介绍栏和博文相聚太近 问题5：分类统计数目不对 处理以后 依旧如此 刷新几遍以后就好用了 20190227 没有奏效 重现运行了一遍localhost 可以了 已解决 已解决 今天将博客基本内容配置完成，以后只是写博文，减少维护次数 post文章标题颜色 全部继承为白色 标签栏全部颜色 标题下面的小字 readmore下面的小横 该字显示颜色 末尾tag间距拉近 下一页链接颜色 隐藏文章 https://blog.csdn.net/m0_37323771/article/details/80672271 基本配置到此结束，剩下的就是写博文了。一年以后我再来细细优化博客样式 20190228最后的整理工作了。 在typora中有一个图片链接无法显示，在网页上正常显示 20190306 hexo的next主题高亮无法显示 这是修改代码高亮的，我这个是文章高亮。 20190421 为了方便使用，开始建立自己的云盘 帮助链接 帮助链接2 好难呀，总是有各种原因的报错，暂时不弄了。 20191202博客置顶功能实现 两篇文章之间间隙连在一起，不是透明的 原因是：主体样式均为白色且透明度为0.8 在post中添加 background-color 和 opcity themes/next/source/css/_custom/custom.styl 是自定义的样式， // 主页文章添加阴影效果 .post { margin-top: 0px; margin-bottom: 60px; padding: 25px; background-color: #EEE; opacity: 0.8; -webkit-box-shadow: 0 0 5px rgba(202, 203, 203, .5); -moz-box-shadow: 0 0 5px rgba(202, 203, 204, .5); }]]></content>
+    <content type="text"><![CDATA[20190221配置七牛图床 利用sharex生成截图工作流，七牛云配置成功。 20190225seo搜索引擎优化 将网站收录到百度上 问题一：两个命令来安装针对谷歌和百度的插件，无法执行 解决办法： 问题二：秘钥在哪？ 按顺序布置完毕，等待百度收录 2019年2月28日18:10:09 今天查看百度的时候，发现已收录。 问题三：sitemap一直处于等待状态 问题四：博客有点丑，想加图片在每一个文章标题上 在前加上图片即可 s 问题5：博文之间没有间隔，介绍栏和博文相聚太近 问题5：分类统计数目不对 处理以后 依旧如此 刷新几遍以后就好用了 20190227 没有奏效 重现运行了一遍localhost 可以了 已解决 已解决 今天将博客基本内容配置完成，以后只是写博文，减少维护次数 post文章标题颜色 全部继承为白色 标签栏全部颜色 标题下面的小字 readmore下面的小横 该字显示颜色 末尾tag间距拉近 下一页链接颜色 隐藏文章 https://blog.csdn.net/m0_37323771/article/details/80672271 基本配置到此结束，剩下的就是写博文了。一年以后我再来细细优化博客样式 20190228最后的整理工作了。 在typora中有一个图片链接无法显示，在网页上正常显示 20190306 hexo的next主题高亮无法显示 这是修改代码高亮的，我这个是文章高亮。 20190421 为了方便使用，开始建立自己的云盘 帮助链接 帮助链接2 好难呀，总是有各种原因的报错，暂时不弄了。 20191202博客置顶功能实现 两篇文章之间间隙连在一起，不是透明的 原因是：主体样式均为白色且透明度为0.8 在post中添加 background-color 和 opcity themes/next/source/css/_custom/custom.styl 是自定义的样式， // 主页文章添加阴影效果 .post { margin-top: 0px; margin-bottom: 60px; padding: 25px; background-color: #EEE; opacity: 0.8; -webkit-box-shadow: 0 0 5px rgba(202, 203, 203, .5); -moz-box-shadow: 0 0 5px rgba(202, 203, 204, .5); } 20191211添加RSS]]></content>
       <categories>
         <category>science</category>
       </categories>
