@@ -8,7 +8,7 @@ categories: 'literature'
 comments: false
 ---
 
-![](http://cdn.xranzhao.cn/BR.png)
+这是一篇读书笔记......
 
 <!-- more -->
 

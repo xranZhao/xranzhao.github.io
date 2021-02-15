@@ -8,6 +8,6 @@ categories: 'literature'
 comments: false
 ---
 
-![](http://cdn.xranzhao.cn/NOVEL.png)
+这是一部短篇小说......
 
 <!-- more -->

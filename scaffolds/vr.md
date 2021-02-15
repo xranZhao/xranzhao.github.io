@@ -8,7 +8,7 @@ categories: 'literature'
 comments: false
 ---
 
-![](http://cdn.xranzhao.cn/VR.png)
+这是一篇视频笔记......
 
 <!-- more -->
 

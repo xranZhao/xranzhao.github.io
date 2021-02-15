@@ -8,7 +8,7 @@ categories: 'self-improvement'
 comments: false
 ---
 
-![](http://cdn.xranzhao.cn/DIARY.png)
+这是一篇个人生活记录......
 
 <!-- more -->
 

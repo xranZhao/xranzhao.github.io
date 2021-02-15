@@ -8,7 +8,7 @@ categories: 'self-improvement'
 comments: false
 ---
 
-![](http://cdn.xranzhao.cn/MR.png)
+这是一篇月度复盘......
 
 <!-- more -->
 

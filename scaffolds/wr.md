@@ -8,7 +8,7 @@ notshow: false
 comments: false
 ---
 
-![](http://cdn.xranzhao.cn/WR.png)
+这是一篇半月复盘......
 
 <!-- more -->
 
